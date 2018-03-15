@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/elias/CLionProjects/untitled/Lista_Simple.cpp
+Lista_Simple.h
+/home/elias/CLionProjects/untitled/Lista_Simple.h
+Nodo_simple.h
+/home/elias/CLionProjects/untitled/Nodo_simple.h
+
+/home/elias/CLionProjects/untitled/Lista_Simple.h
+iostream
+-
+Nodo_simple.h
+/home/elias/CLionProjects/untitled/Nodo_simple.h
+fstream
+-
+string
+-
+stdlib.h
+-
+
+/home/elias/CLionProjects/untitled/Nodo_simple.cpp
+Nodo_simple.h
+/home/elias/CLionProjects/untitled/Nodo_simple.h
+
+/home/elias/CLionProjects/untitled/Nodo_simple.h
+iostream
+-
+
+/home/elias/CLionProjects/untitled/main.cpp
+iostream
+-
+Lista_Simple.h
+/home/elias/CLionProjects/untitled/Lista_Simple.h
+
