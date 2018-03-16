@@ -44,4 +44,4 @@ Nodo_simple<T>::~Nodo_simple()
 }
 
 template class Nodo_simple<int>;
-template class Lista_Simple<string>;
+//template class Lista_Simple<string>;
