@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Lista_Simple.h"
+#include "Nodo_simple_punteros.h"
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -23,6 +24,25 @@ int main() {
     productos->insertar_inicio(9);
     productos->insertar_inicio(10);
     productos->imprimir();
+
+    //Lista Con Punteros
+    BLOQUE_NODO* Bloque_memoria = NULL;
+    asignar_sig_bloque(10,&Bloque_memoria);
+    asignar_sig_bloque(32,&Bloque_memoria);
+    asignar_sig_bloque(62,&Bloque_memoria);
+    asignar_sig_bloque(800,&Bloque_memoria);
+    asignar_sig_bloque(1,&Bloque_memoria);
+    asignar_sig_bloque(1,&Bloque_memoria);
+
+    imprimir_bloques(Bloque_memoria);
+
+    printf("\nAfter freeing second node\n");
+    liberar_bloque_mem(&(Bloque_memoria->siguiente));
+    imprimir_bloques(Bloque_memoria);
+    /*
+    Bloque_de_memoria->asignar_sig_bloque(34, Bloque_de_memoria);
+    Bloque_de_memoria->asignar_sig_bloque(34, Bloque_de_memoria);*/
+
     //Guarda espacio en la memoria para todos los productos.
     p_totales = (int*)calloc(11, sizeof(int));
     printf("Escoja entre los siguientes productos:\n 1-Spaghetti \n 2-Tomates \n 3-Arroz \n 4-Frijoles"

@@ -177,6 +177,33 @@ Nodo_simple.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple.cpp.s
 .PHONY : Nodo_simple.cpp.s
 
+Nodo_simple_punteros.o: Nodo_simple_punteros.cpp.o
+
+.PHONY : Nodo_simple_punteros.o
+
+# target to build an object file
+Nodo_simple_punteros.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o
+.PHONY : Nodo_simple_punteros.cpp.o
+
+Nodo_simple_punteros.i: Nodo_simple_punteros.cpp.i
+
+.PHONY : Nodo_simple_punteros.i
+
+# target to preprocess a source file
+Nodo_simple_punteros.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.i
+.PHONY : Nodo_simple_punteros.cpp.i
+
+Nodo_simple_punteros.s: Nodo_simple_punteros.cpp.s
+
+.PHONY : Nodo_simple_punteros.s
+
+# target to generate assembly for a file
+Nodo_simple_punteros.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s
+.PHONY : Nodo_simple_punteros.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... Nodo_simple.o"
 	@echo "... Nodo_simple.i"
 	@echo "... Nodo_simple.s"
+	@echo "... Nodo_simple_punteros.o"
+	@echo "... Nodo_simple_punteros.i"
+	@echo "... Nodo_simple_punteros.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
