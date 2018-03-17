@@ -48,10 +48,10 @@ RM = /home/elias/Escritorio/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elias/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/elias/CLionProjects/Gestion_de_memoria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elias/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles /home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,33 @@ Nodo_simple_punteros.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s
 .PHONY : Nodo_simple_punteros.cpp.s
 
+Pag_memoria_virtual.o: Pag_memoria_virtual.cpp.o
+
+.PHONY : Pag_memoria_virtual.o
+
+# target to build an object file
+Pag_memoria_virtual.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o
+.PHONY : Pag_memoria_virtual.cpp.o
+
+Pag_memoria_virtual.i: Pag_memoria_virtual.cpp.i
+
+.PHONY : Pag_memoria_virtual.i
+
+# target to preprocess a source file
+Pag_memoria_virtual.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.i
+.PHONY : Pag_memoria_virtual.cpp.i
+
+Pag_memoria_virtual.s: Pag_memoria_virtual.cpp.s
+
+.PHONY : Pag_memoria_virtual.s
+
+# target to generate assembly for a file
+Pag_memoria_virtual.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.s
+.PHONY : Pag_memoria_virtual.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... Nodo_simple_punteros.o"
 	@echo "... Nodo_simple_punteros.i"
 	@echo "... Nodo_simple_punteros.s"
+	@echo "... Pag_memoria_virtual.o"
+	@echo "... Pag_memoria_virtual.i"
+	@echo "... Pag_memoria_virtual.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

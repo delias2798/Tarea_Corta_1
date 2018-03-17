@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/elias/CLionProjects/untitled/Lista_Simple.cpp" "/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
-  "/home/elias/CLionProjects/untitled/Nodo_simple.cpp" "/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
-  "/home/elias/CLionProjects/untitled/Nodo_simple_punteros.cpp" "/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
-  "/home/elias/CLionProjects/untitled/main.cpp" "/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria/main.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/elias/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/elias/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/elias/CLionProjects/untitled/cmake-build-debug"/>
+				<Option working_dir="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled">
-				<Option output="/home/elias/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/elias/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="untitled/fast">
-				<Option output="/home/elias/CLionProjects/untitled/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/elias/CLionProjects/untitled/cmake-build-debug"/>
+				<Option output="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/untitled" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,35 +77,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/untitled/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 untitled/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/elias/CLionProjects/untitled/Lista_Simple.cpp">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/Lista_Simple.h">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/Nodo_simple.cpp">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/Nodo_simple.h">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/Nodo_simple_punteros.cpp">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/Nodo_simple_punteros.h">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/main.cpp">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/elias/CLionProjects/untitled/CMakeLists.txt">
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/main.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

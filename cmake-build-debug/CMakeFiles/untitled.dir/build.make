@@ -43,10 +43,10 @@ RM = /home/elias/Escritorio/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/elias/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/elias/CLionProjects/Gestion_de_memoria
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/elias/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/untitled.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/untitled.dir/flags.make
 
 CMakeFiles/untitled.dir/main.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/elias/CLionProjects/untitled/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/main.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/main.cpp
 
 CMakeFiles/untitled.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/untitled/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/main.cpp > CMakeFiles/untitled.dir/main.cpp.i
 
 CMakeFiles/untitled.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/untitled/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/main.cpp -o CMakeFiles/untitled.dir/main.cpp.s
 
 CMakeFiles/untitled.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/untitled.dir/main.cpp.o.provides.build: CMakeFiles/untitled.dir/main.
 
 CMakeFiles/untitled.dir/Lista_Simple.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Lista_Simple.cpp.o: ../Lista_Simple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Lista_Simple.cpp.o -c /home/elias/CLionProjects/untitled/Lista_Simple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Lista_Simple.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp
 
 CMakeFiles/untitled.dir/Lista_Simple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Lista_Simple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/untitled/Lista_Simple.cpp > CMakeFiles/untitled.dir/Lista_Simple.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp > CMakeFiles/untitled.dir/Lista_Simple.cpp.i
 
 CMakeFiles/untitled.dir/Lista_Simple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Lista_Simple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/untitled/Lista_Simple.cpp -o CMakeFiles/untitled.dir/Lista_Simple.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp -o CMakeFiles/untitled.dir/Lista_Simple.cpp.s
 
 CMakeFiles/untitled.dir/Lista_Simple.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/untitled.dir/Lista_Simple.cpp.o.provides.build: CMakeFiles/untitled.d
 
 CMakeFiles/untitled.dir/Nodo_simple.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Nodo_simple.cpp.o: ../Nodo_simple.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Nodo_simple.cpp.o -c /home/elias/CLionProjects/untitled/Nodo_simple.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Nodo_simple.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp
 
 CMakeFiles/untitled.dir/Nodo_simple.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Nodo_simple.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/untitled/Nodo_simple.cpp > CMakeFiles/untitled.dir/Nodo_simple.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp > CMakeFiles/untitled.dir/Nodo_simple.cpp.i
 
 CMakeFiles/untitled.dir/Nodo_simple.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Nodo_simple.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/untitled/Nodo_simple.cpp -o CMakeFiles/untitled.dir/Nodo_simple.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp -o CMakeFiles/untitled.dir/Nodo_simple.cpp.s
 
 CMakeFiles/untitled.dir/Nodo_simple.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/untitled.dir/Nodo_simple.cpp.o.provides.build: CMakeFiles/untitled.di
 
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o: CMakeFiles/untitled.dir/flags.make
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o: ../Nodo_simple_punteros.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o -c /home/elias/CLionProjects/untitled/Nodo_simple_punteros.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp
 
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/untitled/Nodo_simple_punteros.cpp > CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp > CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.i
 
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/untitled/Nodo_simple_punteros.cpp -o CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp -o CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s
 
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o.requires:
 
@@ -153,12 +153,37 @@ CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o.provides: CMakeFiles/untitled
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o.provides.build: CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o
 
 
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o: ../Pag_memoria_virtual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp
+
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp > CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.i
+
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp -o CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.s
+
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.requires
+
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.provides: CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.provides
+
+CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.provides.build: CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o
+
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
 "CMakeFiles/untitled.dir/Lista_Simple.cpp.o" \
 "CMakeFiles/untitled.dir/Nodo_simple.cpp.o" \
-"CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
+"CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o" \
+"CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -167,9 +192,10 @@ untitled: CMakeFiles/untitled.dir/main.cpp.o
 untitled: CMakeFiles/untitled.dir/Lista_Simple.cpp.o
 untitled: CMakeFiles/untitled.dir/Nodo_simple.cpp.o
 untitled: CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o
+untitled: CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -181,6 +207,7 @@ CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/main.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Lista_Simple.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Nodo_simple.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.requires
 
 .PHONY : CMakeFiles/untitled.dir/requires
 
@@ -189,6 +216,6 @@ CMakeFiles/untitled.dir/clean:
 .PHONY : CMakeFiles/untitled.dir/clean
 
 CMakeFiles/untitled.dir/depend:
-	cd /home/elias/CLionProjects/untitled/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/elias/CLionProjects/untitled /home/elias/CLionProjects/untitled /home/elias/CLionProjects/untitled/cmake-build-debug /home/elias/CLionProjects/untitled/cmake-build-debug /home/elias/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/elias/CLionProjects/Gestion_de_memoria /home/elias/CLionProjects/Gestion_de_memoria /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug /home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/untitled.dir/depend
 

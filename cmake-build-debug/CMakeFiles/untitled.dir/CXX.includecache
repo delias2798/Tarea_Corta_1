@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/elias/CLionProjects/untitled/Lista_Simple.cpp
+/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp
 Lista_Simple.h
-/home/elias/CLionProjects/untitled/Lista_Simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.h
 Nodo_simple.h
-/home/elias/CLionProjects/untitled/Nodo_simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.h
 
-/home/elias/CLionProjects/untitled/Lista_Simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.h
 iostream
 -
 Nodo_simple.h
-/home/elias/CLionProjects/untitled/Nodo_simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.h
 fstream
 -
 string
@@ -24,15 +24,15 @@ string
 stdlib.h
 -
 
-/home/elias/CLionProjects/untitled/Nodo_simple.cpp
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp
 Nodo_simple.h
-/home/elias/CLionProjects/untitled/Nodo_simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.h
 
-/home/elias/CLionProjects/untitled/Nodo_simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.h
 iostream
 -
 
-/home/elias/CLionProjects/untitled/Nodo_simple_punteros.cpp
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp
 stdio.h
 -
 unistd.h
@@ -40,17 +40,31 @@ unistd.h
 printf.h
 -
 Nodo_simple_punteros.h
-/home/elias/CLionProjects/untitled/Nodo_simple_punteros.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.h
 
-/home/elias/CLionProjects/untitled/Nodo_simple_punteros.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.h
 cstddef
 -
 
-/home/elias/CLionProjects/untitled/main.cpp
+/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp
+cstdlib
+-
+Pag_memoria_virtual.h
+/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.h
+
+/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.h
+stdio.h
+-
+unistd.h
+-
+printf.h
+-
+
+/home/elias/CLionProjects/Gestion_de_memoria/main.cpp
 iostream
 -
 Lista_Simple.h
-/home/elias/CLionProjects/untitled/Lista_Simple.h
+/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.h
 Nodo_simple_punteros.h
-/home/elias/CLionProjects/untitled/Nodo_simple_punteros.h
+/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.h
 
