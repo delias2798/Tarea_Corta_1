@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
   "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
   "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria/Pag_bloque_mem.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o"
   "/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
   "/home/elias/CLionProjects/Gestion_de_memoria/main.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )

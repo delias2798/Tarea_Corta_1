@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
   "CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
   "CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
+  "CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o"
   "untitled.pdb"
   "untitled"
 )

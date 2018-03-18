@@ -204,6 +204,33 @@ Nodo_simple_punteros.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s
 .PHONY : Nodo_simple_punteros.cpp.s
 
+Pag_bloque_mem.o: Pag_bloque_mem.cpp.o
+
+.PHONY : Pag_bloque_mem.o
+
+# target to build an object file
+Pag_bloque_mem.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o
+.PHONY : Pag_bloque_mem.cpp.o
+
+Pag_bloque_mem.i: Pag_bloque_mem.cpp.i
+
+.PHONY : Pag_bloque_mem.i
+
+# target to preprocess a source file
+Pag_bloque_mem.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.i
+.PHONY : Pag_bloque_mem.cpp.i
+
+Pag_bloque_mem.s: Pag_bloque_mem.cpp.s
+
+.PHONY : Pag_bloque_mem.s
+
+# target to generate assembly for a file
+Pag_bloque_mem.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.s
+.PHONY : Pag_bloque_mem.cpp.s
+
 Pag_memoria_virtual.o: Pag_memoria_virtual.cpp.o
 
 .PHONY : Pag_memoria_virtual.o
@@ -276,6 +303,9 @@ help:
 	@echo "... Nodo_simple_punteros.o"
 	@echo "... Nodo_simple_punteros.i"
 	@echo "... Nodo_simple_punteros.s"
+	@echo "... Pag_bloque_mem.o"
+	@echo "... Pag_bloque_mem.i"
+	@echo "... Pag_bloque_mem.s"
 	@echo "... Pag_memoria_virtual.o"
 	@echo "... Pag_memoria_virtual.i"
 	@echo "... Pag_memoria_virtual.s"

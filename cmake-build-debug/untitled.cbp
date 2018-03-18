@@ -102,6 +102,12 @@
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_bloque_mem.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_bloque_mem.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp">
 			<Option target="untitled"/>
 		</Unit>
