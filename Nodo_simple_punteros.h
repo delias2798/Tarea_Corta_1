@@ -14,7 +14,7 @@ typedef struct Nodo_simple_punteros {
     bool vacio;
     void* direccion_de_memoria;
     size_t tamano;
-
+    //int dato;
 
 }BLOQUE_NODO;
 

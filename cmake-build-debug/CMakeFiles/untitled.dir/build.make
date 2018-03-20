@@ -201,6 +201,78 @@ CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o.provides: CMakeFiles/untitled.dir/P
 CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o.provides.build: CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o
 
 
+CMakeFiles/untitled.dir/Paginacion.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Paginacion.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/untitled.dir/Paginacion.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Paginacion.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Paginacion.cpp
+
+CMakeFiles/untitled.dir/Paginacion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Paginacion.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Paginacion.cpp > CMakeFiles/untitled.dir/Paginacion.cpp.i
+
+CMakeFiles/untitled.dir/Paginacion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Paginacion.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Paginacion.cpp -o CMakeFiles/untitled.dir/Paginacion.cpp.s
+
+CMakeFiles/untitled.dir/Paginacion.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/Paginacion.cpp.o.requires
+
+CMakeFiles/untitled.dir/Paginacion.cpp.o.provides: CMakeFiles/untitled.dir/Paginacion.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Paginacion.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/Paginacion.cpp.o.provides
+
+CMakeFiles/untitled.dir/Paginacion.cpp.o.provides.build: CMakeFiles/untitled.dir/Paginacion.cpp.o
+
+
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o: ../Nodo_pag_int.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Nodo_pag_int.cpp
+
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Nodo_pag_int.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Nodo_pag_int.cpp > CMakeFiles/untitled.dir/Nodo_pag_int.cpp.i
+
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Nodo_pag_int.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Nodo_pag_int.cpp -o CMakeFiles/untitled.dir/Nodo_pag_int.cpp.s
+
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.requires
+
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.provides: CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.provides
+
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.provides.build: CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o
+
+
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o: ../Obtener_datos_de_archivo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o -c /home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.cpp
+
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.cpp > CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.i
+
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.cpp -o CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.s
+
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.requires
+
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.provides: CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.provides
+
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.provides.build: CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o
+
+
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.cpp.o" \
@@ -208,7 +280,10 @@ untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/Nodo_simple.cpp.o" \
 "CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o" \
 "CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o" \
-"CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o"
+"CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o" \
+"CMakeFiles/untitled.dir/Paginacion.cpp.o" \
+"CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o" \
+"CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
@@ -219,9 +294,12 @@ untitled: CMakeFiles/untitled.dir/Nodo_simple.cpp.o
 untitled: CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o
 untitled: CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o
 untitled: CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o
+untitled: CMakeFiles/untitled.dir/Paginacion.cpp.o
+untitled: CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o
+untitled: CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -235,6 +313,9 @@ CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Nodo_simple.cpp.o.requ
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Paginacion.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o.requires
 
 .PHONY : CMakeFiles/untitled.dir/requires
 

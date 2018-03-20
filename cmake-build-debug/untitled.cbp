@@ -90,6 +90,12 @@
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_pag_int.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_pag_int.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp">
 			<Option target="untitled"/>
 		</Unit>
@@ -102,6 +108,12 @@
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_bloque_mem.cpp">
 			<Option target="untitled"/>
 		</Unit>
@@ -112,6 +124,12 @@
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Paginacion.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/Paginacion.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/elias/CLionProjects/Gestion_de_memoria/main.cpp">

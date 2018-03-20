@@ -13,9 +13,9 @@ BLOQUE_NODO* asignar_bloque_mem(size_t tamano){
     void* direc_mem = (void*)sbrk(0);
     void* asignar_mem = (void*)sbrk(TAMANO_BLOQUE + tamano);
 
-    if(asignar_mem == (void*) - 1){ return NULL;}
+    if(asignar_mem == (void*) - 1){ return nullptr;}
     else{
-        bloque->siguiente = NULL;
+        bloque->siguiente = nullptr;
         bloque->vacio = false;
         bloque->tamano = tamano;
         bloque->direccion_de_memoria = direc_mem + TAMANO_BLOQUE;
@@ -25,12 +25,12 @@ BLOQUE_NODO* asignar_bloque_mem(size_t tamano){
 
 void asignar_sig_bloque(size_t tamano, BLOQUE_NODO **cabeza){
     BLOQUE_NODO* temp = *cabeza;
-    void* asignar_mem = NULL;
+    void* asignar_mem = nullptr;
     void* direc_mem = (void*)sbrk(0);
 
-    if(temp == NULL){*cabeza = asignar_bloque_mem(tamano);}
+    if(temp == nullptr){*cabeza = asignar_bloque_mem(tamano);}
     else{
-        while(temp->siguiente != NULL){
+        while(temp->siguiente != nullptr){
             temp = temp->siguiente;
         }
         BLOQUE_NODO* bloque_nuevo = static_cast<BLOQUE_NODO *>(sbrk(0));
@@ -38,7 +38,7 @@ void asignar_sig_bloque(size_t tamano, BLOQUE_NODO **cabeza){
         asignar_mem = (void*)sbrk(TAMANO_BLOQUE + tamano);
         if(asignar_mem == (void*) - 1){}
         else{
-            bloque_nuevo->siguiente = NULL;
+            bloque_nuevo->siguiente = nullptr;
             bloque_nuevo->vacio = false;
             bloque_nuevo->tamano = tamano;
             bloque_nuevo->direccion_de_memoria = direc_mem + TAMANO_BLOQUE;
@@ -48,7 +48,7 @@ void asignar_sig_bloque(size_t tamano, BLOQUE_NODO **cabeza){
 }
 
 void liberar_bloque_mem(BLOQUE_NODO **cabeza){
-    if(*cabeza == NULL){}
+    if(*cabeza == nullptr){}
     else{
         (*cabeza)->vacio = true;
     }

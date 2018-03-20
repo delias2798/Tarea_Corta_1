@@ -5,77 +5,46 @@
 
 #include <cstdlib>
 #include "Pag_memoria_virtual.h"
-#include "Pag_bloque_mem.h"
 
 #define Memoria_página_virtual size_of(MEMORIA_VIRTUAL)
-#define Tamano_pag 4096
-#define Max_pag 256
-#define Max_tamano_pag 0x256
+
 //Asignar la memoria para la MV
-/*_VIRTMEMPAGEBLOCKS* _virtmempageblockscreateNewNode(int process, size_t size, int pagenumber, void *memoryaddress)
+Pag_memoria_virtual*
+Pag_memoria_virtual::VM_pag_bloq_nuevo_nodo(int proceso, size_t tamano, int num_pagina, void *dir_memoria)
 {
-    _VIRTMEMPAGEBLOCKS *newNode = NULL;
-    newNode=(_VIRTMEMPAGEBLOCKS*)malloc(sizeof(_VIRTMEMPAGEBLOCKS));
-    if(newNode == NULL) {
+    Pag_memoria_virtual*nuevo_nodo= NULL;
+    nuevo_nodo = (Pag_memoria_virtual*)malloc(sizeof(Pag_memoria_virtual));
+    if(nuevo_nodo == NULL) {
         printf("Memory allocation error\n");
         return NULL;
     }
-    newNode->process = process;
-    newNode->size = size;
-    newNode->pagenumber=pagenumber;
-    newNode->memoryaddress=memoryaddress;
-    newNode->next = NULL;
-    return newNode;
+    nuevo_nodo->proceso = proceso;
+    nuevo_nodo->tamano = tamano;
+    nuevo_nodo->numero_pagina = num_pagina;
+    nuevo_nodo->direccion_de_mem = dir_memoria;
+    nuevo_nodo->siguiente = NULL;
+    return nuevo_nodo;
 }
 
 
- function to insert new node at the end of list _PROCINTNODE
-_PROCINTNODE* _procintinsertAtEnd(int process, int size, _PROCINTNODE **head)
-{
-    _PROCINTNODE *current = *head;
-    if (current == NULL) {
-        *head = _procintcreateNewNode(process, size);
-    }else{
-        while(current->next != NULL){
-            current = current->next;
-        }
-        current->next = _procintcreateNewNode(process, size);
-    }
-    return *head;
-}
 
 
 
 /***************************************************************************/
-/* function to insert new node at the end of list _VIRTMEMPAGEBLOCKS
-_VIRTMEMPAGEBLOCKS* _virtmempageblocksinsertAtEnd(int process,size_t size,int pagenumber,
-                                                  void *memoryaddress, _VIRTMEMPAGEBLOCKS **head)
+/* function to insert new node at the end of list _VIRTMEMPAGEBLOCKS*/
+Pag_memoria_virtual*
+Pag_memoria_virtual::VM_pag_bloq_nuevo_nodo_final(int proceso,size_t tamano,int num_pagina,
+                                                  void *dir_memoria, Pag_memoria_virtual **cabeza)
 {
-    _VIRTMEMPAGEBLOCKS *current = *head;
-    if (current == NULL) {
-        *head = _virtmempageblockscreateNewNode(process, size, pagenumber, memoryaddress);
+    Pag_memoria_virtual *temp = *cabeza;
+    if (temp == NULL) {
+        *cabeza = VM_pag_bloq_nuevo_nodo(proceso, tamano, num_pagina, dir_memoria);
     }else{
-        while(current->next != NULL){
-            current = current->next;
+        while(temp->siguiente != NULL){
+            temp = temp->siguiente;
         }
-        current->next = _virtmempageblockscreateNewNode(process, size, pagenumber, memoryaddress);
+        temp->siguiente = VM_pag_bloq_nuevo_nodo(proceso, tamano, num_pagina, dir_memoria);
     }
-    return *head;
+    return *cabeza;
 }
-*/
-
-void Paginacion_memoria_virtual(dato_nodo_int *dato_nodo_int1, Pag_memoria_virtual **pag_memoria_virtual,
-                                Pag_bloque_mem **pag_bloque_mem){
-    dato_nodo_int *temp = dato_nodo_int1;
-    unsigned  int num_pag = 0;
-    void* direccion = (void*)0x12345678;
-
-    while(temp != NULL){
-        if(temp->tamano < Tamano_pag){
-
-        }
-    }
-}
-
-void Pag* _virtmempageblocksinsertAtEnd(int ,size_t ,int ,void *, _VIRTMEMPAGEBLOCKS **);
 

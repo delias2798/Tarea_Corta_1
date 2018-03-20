@@ -1,8 +1,11 @@
 #include <iostream>
 #include "Lista_Simple.h"
 #include "Nodo_simple_punteros.h"
+#include "Pag_bloque_mem.h"
+#include "Pag_memoria_virtual.h"
+#include "Paginacion.h"
 
-int main() {
+int main() {/*
     std::cout << "Hello, World!" << std::endl;
 
     int i, n, x;
@@ -44,7 +47,7 @@ int main() {
     Bloque_de_memoria->asignar_sig_bloque(34, Bloque_de_memoria);*/
 
     //Guarda espacio en la memoria para todos los productos.
-    p_totales = (int*)calloc(11, sizeof(int));
+    /*p_totales = (int*)calloc(11, sizeof(int));
     printf("Escoja entre los siguientes productos:\n 1-Spaghetti \n 2-Tomates \n 3-Arroz \n 4-Frijoles"
                    "\n 5-Bananos \n 6-Aguacate \n 7-Papas \n 8-Jamón \n 9-Pepinillo \n 10-Cebolla \n",n);
 
@@ -72,7 +75,15 @@ int main() {
 
     free( p_escogidos );
     free( p_totales );
-    free(productos);
+    free(productos);*/
+    char* inputfile;
+    inputfile = {"/home/elias/Escritorio/palabras.odt"};
+    Pag_Bloque_Mem* bloque = nullptr;
+    MEMORIA_VIRTUAL* vm = nullptr;
+    Pag_Bloque_Mem* bloque_mem = nullptr;
+    Paginacion *pag = new Paginacion();
+
+    pag->asignar_paginado(bloque, vm, bloque_mem, inputfile);
 
     return(0);
 }

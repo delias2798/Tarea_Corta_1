@@ -150,6 +150,33 @@ Lista_Simple.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Lista_Simple.cpp.s
 .PHONY : Lista_Simple.cpp.s
 
+Nodo_pag_int.o: Nodo_pag_int.cpp.o
+
+.PHONY : Nodo_pag_int.o
+
+# target to build an object file
+Nodo_pag_int.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o
+.PHONY : Nodo_pag_int.cpp.o
+
+Nodo_pag_int.i: Nodo_pag_int.cpp.i
+
+.PHONY : Nodo_pag_int.i
+
+# target to preprocess a source file
+Nodo_pag_int.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_pag_int.cpp.i
+.PHONY : Nodo_pag_int.cpp.i
+
+Nodo_pag_int.s: Nodo_pag_int.cpp.s
+
+.PHONY : Nodo_pag_int.s
+
+# target to generate assembly for a file
+Nodo_pag_int.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_pag_int.cpp.s
+.PHONY : Nodo_pag_int.cpp.s
+
 Nodo_simple.o: Nodo_simple.cpp.o
 
 .PHONY : Nodo_simple.o
@@ -203,6 +230,33 @@ Nodo_simple_punteros.s: Nodo_simple_punteros.cpp.s
 Nodo_simple_punteros.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.s
 .PHONY : Nodo_simple_punteros.cpp.s
+
+Obtener_datos_de_archivo.o: Obtener_datos_de_archivo.cpp.o
+
+.PHONY : Obtener_datos_de_archivo.o
+
+# target to build an object file
+Obtener_datos_de_archivo.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o
+.PHONY : Obtener_datos_de_archivo.cpp.o
+
+Obtener_datos_de_archivo.i: Obtener_datos_de_archivo.cpp.i
+
+.PHONY : Obtener_datos_de_archivo.i
+
+# target to preprocess a source file
+Obtener_datos_de_archivo.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.i
+.PHONY : Obtener_datos_de_archivo.cpp.i
+
+Obtener_datos_de_archivo.s: Obtener_datos_de_archivo.cpp.s
+
+.PHONY : Obtener_datos_de_archivo.s
+
+# target to generate assembly for a file
+Obtener_datos_de_archivo.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.s
+.PHONY : Obtener_datos_de_archivo.cpp.s
 
 Pag_bloque_mem.o: Pag_bloque_mem.cpp.o
 
@@ -258,6 +312,33 @@ Pag_memoria_virtual.cpp.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.s
 .PHONY : Pag_memoria_virtual.cpp.s
 
+Paginacion.o: Paginacion.cpp.o
+
+.PHONY : Paginacion.o
+
+# target to build an object file
+Paginacion.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Paginacion.cpp.o
+.PHONY : Paginacion.cpp.o
+
+Paginacion.i: Paginacion.cpp.i
+
+.PHONY : Paginacion.i
+
+# target to preprocess a source file
+Paginacion.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Paginacion.cpp.i
+.PHONY : Paginacion.cpp.i
+
+Paginacion.s: Paginacion.cpp.s
+
+.PHONY : Paginacion.s
+
+# target to generate assembly for a file
+Paginacion.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Paginacion.cpp.s
+.PHONY : Paginacion.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -297,18 +378,27 @@ help:
 	@echo "... Lista_Simple.o"
 	@echo "... Lista_Simple.i"
 	@echo "... Lista_Simple.s"
+	@echo "... Nodo_pag_int.o"
+	@echo "... Nodo_pag_int.i"
+	@echo "... Nodo_pag_int.s"
 	@echo "... Nodo_simple.o"
 	@echo "... Nodo_simple.i"
 	@echo "... Nodo_simple.s"
 	@echo "... Nodo_simple_punteros.o"
 	@echo "... Nodo_simple_punteros.i"
 	@echo "... Nodo_simple_punteros.s"
+	@echo "... Obtener_datos_de_archivo.o"
+	@echo "... Obtener_datos_de_archivo.i"
+	@echo "... Obtener_datos_de_archivo.s"
 	@echo "... Pag_bloque_mem.o"
 	@echo "... Pag_bloque_mem.i"
 	@echo "... Pag_bloque_mem.s"
 	@echo "... Pag_memoria_virtual.o"
 	@echo "... Pag_memoria_virtual.i"
 	@echo "... Pag_memoria_virtual.s"
+	@echo "... Paginacion.o"
+	@echo "... Paginacion.i"
+	@echo "... Paginacion.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

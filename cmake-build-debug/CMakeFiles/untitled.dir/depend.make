@@ -5,17 +5,41 @@ CMakeFiles/untitled.dir/Lista_Simple.cpp.o: ../Lista_Simple.cpp
 CMakeFiles/untitled.dir/Lista_Simple.cpp.o: ../Lista_Simple.h
 CMakeFiles/untitled.dir/Lista_Simple.cpp.o: ../Nodo_simple.h
 
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o: ../Nodo_pag_int.cpp
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o: ../Nodo_pag_int.h
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o: ../Nodo_simple.h
+CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o: ../Obtener_datos_de_archivo.h
+
 CMakeFiles/untitled.dir/Nodo_simple.cpp.o: ../Nodo_simple.cpp
 CMakeFiles/untitled.dir/Nodo_simple.cpp.o: ../Nodo_simple.h
 
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o: ../Nodo_simple_punteros.cpp
 CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o: ../Nodo_simple_punteros.h
 
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o: ../Obtener_datos_de_archivo.cpp
+CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o: ../Obtener_datos_de_archivo.h
+
+CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o: ../Pag_bloque_mem.cpp
+CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o: ../Pag_bloque_mem.h
+
 CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o: ../Pag_memoria_virtual.cpp
 CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o: ../Pag_memoria_virtual.h
 
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Nodo_pag_int.h
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Nodo_simple.h
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Obtener_datos_de_archivo.h
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Pag_bloque_mem.h
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Pag_memoria_virtual.h
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Paginacion.cpp
+CMakeFiles/untitled.dir/Paginacion.cpp.o: ../Paginacion.h
+
 CMakeFiles/untitled.dir/main.cpp.o: ../Lista_Simple.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Nodo_pag_int.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Nodo_simple.h
 CMakeFiles/untitled.dir/main.cpp.o: ../Nodo_simple_punteros.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Obtener_datos_de_archivo.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Pag_bloque_mem.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Pag_memoria_virtual.h
+CMakeFiles/untitled.dir/main.cpp.o: ../Paginacion.h
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
 

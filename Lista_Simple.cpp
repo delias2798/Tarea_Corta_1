@@ -201,5 +201,6 @@ Lista_Simple<T>::~Lista_Simple()
 }
 
 template class Lista_Simple<int>;
+template class Lista_Simple<char>;
 //template class Lista_Simple<string>;
 
