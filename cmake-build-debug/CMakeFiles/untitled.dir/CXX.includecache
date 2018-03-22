@@ -69,6 +69,8 @@ cstdlib
 -
 cstdio
 -
+iostream
+-
 Obtener_datos_de_archivo.h
 /home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.h
 

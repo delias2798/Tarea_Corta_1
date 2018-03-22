@@ -35,18 +35,18 @@ Nodo_pag_int *Nodo_pag_int::insertar_nodo_final(int proceso, int tamano, Nodo_pa
 }
 
 Nodo_pag_int *Nodo_pag_int::obtener_dato(Obtener_datos_de_archivo *cabeza_simp, Nodo_pag_int **cabeza_pag) {
-    Nodo_simple* temp = new Nodo_simple(cabeza_simp);
+    _INTNODE* temp = reinterpret_cast<_INTNODE *>(cabeza_simp);
     int contador = 0, proceso;
     while (temp != NULL){
         contador++;
         switch (contador){
-            case 1: proceso = temp->dato;
-                temp = temp->siguiente;
+            case 1: proceso = temp->data;
+                temp = temp->next;
                 break;
 
-            case 2: *cabeza_pag = insertar_nodo_final(proceso, temp->dato, &(*cabeza_pag));
+            case 2: *cabeza_pag = insertar_nodo_final(proceso, temp->data, &(*cabeza_pag));
                 contador = 0;
-                temp = temp ->siguiente;
+                temp = temp ->next;
                 break;
         }
     }
@@ -99,5 +99,3 @@ void Nodo_pag_int::borra_nodo(Nodo_pag_int **cabeza) {
         *cabeza = temp->siguiente;
     }
 }
-
-

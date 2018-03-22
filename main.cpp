@@ -76,14 +76,16 @@ int main() {/*
     free( p_escogidos );
     free( p_totales );
     free(productos);*/
-    char* inputfile;
-    inputfile = {"/home/elias/Escritorio/palabras.odt"};
+    char* inputfile = "/home/elias/Escritorio/palabras.txt";
+    std::cout << 1 << std::endl;
     Pag_Bloque_Mem* bloque = nullptr;
+    std::cout << 1 << std::endl;
     MEMORIA_VIRTUAL* vm = nullptr;
+    std::cout << 1 << std::endl;
     Pag_Bloque_Mem* bloque_mem = nullptr;
     Paginacion *pag = new Paginacion();
-
+    std::cout << 1 << std::endl;
     pag->asignar_paginado(bloque, vm, bloque_mem, inputfile);
-
+    std::cout << 2 << std::endl;
     return(0);
 }

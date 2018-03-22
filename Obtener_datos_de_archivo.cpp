@@ -5,8 +5,13 @@
 #include <clocale>
 #include <cstdlib>
 #include <cstdio>
+#include <iostream>
 #include "Obtener_datos_de_archivo.h"
-
+/*
+ * Input: char
+ * Esta funcion toma el dato tipo char que se le otorga y luego crea un nodo con esa info.
+ * Output: retorna el nodo que fue creado.
+ * */
 Obtener_datos_de_archivo *Obtener_datos_de_archivo::_createNewNode(char data) {
     _NODE *newNode = nullptr;
     newNode=(_NODE*)malloc(sizeof(_NODE));
@@ -18,7 +23,11 @@ Obtener_datos_de_archivo *Obtener_datos_de_archivo::_createNewNode(char data) {
     newNode->next = nullptr;
     return reinterpret_cast<Obtener_datos_de_archivo *>(newNode);
 }
-
+/*
+ * Input: integer
+ * Esta funcion toma el dato tipo char que se le otorga y luego crea un nodo con esa info.
+ * Output: retorna el nuevo nodo integer creado.
+ * */
 Obtener_datos_de_archivo *Obtener_datos_de_archivo::_intcreateNewNode(int data) {
     _INTNODE *newNode = nullptr;
     newNode=(_INTNODE*)malloc(sizeof(_INTNODE));
@@ -30,7 +39,11 @@ Obtener_datos_de_archivo *Obtener_datos_de_archivo::_intcreateNewNode(int data) 
     newNode->next = nullptr;
     return reinterpret_cast<Obtener_datos_de_archivo *>(newNode);
 }
-
+/*
+ * Input: char, nodo principal.
+ * Esta funcion toma el dato tipo char que se le otorga y luego crea un nodo con esa info al final de la lista.
+ * Output: retorna el nuevo nodo char creado.
+ * */
 Obtener_datos_de_archivo *Obtener_datos_de_archivo::_insertAtEnd(char data, _NODE **head) {
     _NODE *current = *head;
     if (current == nullptr) {
@@ -43,7 +56,11 @@ Obtener_datos_de_archivo *Obtener_datos_de_archivo::_insertAtEnd(char data, _NOD
     }
     return reinterpret_cast<Obtener_datos_de_archivo *>(*head);
 }
-
+/*
+ * Input: int, nodo principal.
+ * Esta funcion toma el dato tipo int que se le otorga y luego crea un nodo con esa info al final de la lista.
+ * Output: retorna el nuevo nodo integer creado.
+ * */
 Obtener_datos_de_archivo *Obtener_datos_de_archivo::_intinsertAtEnd(int data, _INTNODE **head) {
     _INTNODE *current = *head;
     if (current == nullptr) {
@@ -56,7 +73,11 @@ Obtener_datos_de_archivo *Obtener_datos_de_archivo::_intinsertAtEnd(int data, _I
     }
     return reinterpret_cast<Obtener_datos_de_archivo *>(*head);
 }
-
+/*
+ * Input: int, nodo principal.
+ * Busca en la lista simple algun elemento que tenga sus datos en nulo y lo elimina.
+ * Output: retorna el nuevo nodo integer creado.
+ * */
 Obtener_datos_de_archivo *Obtener_datos_de_archivo::_removeExtraSpaces(_NODE **head) {
     _NODE*current = *head;
     while(current->next != nullptr){
@@ -71,7 +92,11 @@ Obtener_datos_de_archivo *Obtener_datos_de_archivo::_removeExtraSpaces(_NODE **h
     }
     return reinterpret_cast<Obtener_datos_de_archivo *>(*head);
 }
-
+/*
+ * Input: cabeza tipo nodo principal.
+ * Realiza una duncion que nos muestra la química es para todos.
+ * Output: retorna el no creado.
+ * */
 int Obtener_datos_de_archivo::_countINTNodes(_INTNODE *head) {
     int count=0;
     while(head != nullptr){
@@ -80,7 +105,11 @@ int Obtener_datos_de_archivo::_countINTNodes(_INTNODE *head) {
     }
     return count;
 }
-
+/*
+ * Input: cabeza tipo nodo principal.
+ * Realiza una duncion que nos muestra la química es para todos.
+ * Output: retorna el no creado.
+ * */
 void Obtener_datos_de_archivo::_deleteCharList(_NODE **head) {
     _NODE *current = *head;
     while(current->next != nullptr){
@@ -90,6 +119,11 @@ void Obtener_datos_de_archivo::_deleteCharList(_NODE **head) {
     }
 }
 
+/*
+ * Input: cabeza tipo nodo principal.
+ * Realiza una duncion que nos muestra la química es para todos.
+ * Output: retorna el no creado.
+ * */
 void Obtener_datos_de_archivo::_deleteINTList(_INTNODE **inthead) {
     _INTNODE *current = *inthead;
     while(current != nullptr){
@@ -98,7 +132,11 @@ void Obtener_datos_de_archivo::_deleteINTList(_INTNODE **inthead) {
         current=*inthead;
     }
 }
-
+/*
+ * Input: cabeza tipo nodo principal.
+ * Realiza una duncion que nos muestra la química es para todos.
+ * Output: retorna el no creado.
+ * */
 Obtener_datos_de_archivo *Obtener_datos_de_archivo::_deleteINTFront(_INTNODE **inthead) {
     _INTNODE *current = *inthead;
     if(current == nullptr) {
@@ -145,7 +183,11 @@ Obtener_datos_de_archivo *Obtener_datos_de_archivo::_deleteINT_FromSecondNode(_I
     }
     return reinterpret_cast<Obtener_datos_de_archivo *>(headTemp);
 }
-
+/*
+ * Input: cabeza tipo nodo principal.
+ * Realiza una duncion que nos muestra la química es para todos.
+ * Output: retorna el no creado.
+ * */
 void Obtener_datos_de_archivo::_separateNumbDatas(_NODE *head, _INTNODE **inthead) {
     head = reinterpret_cast<_NODE *>(_insertAtEnd(' ', &head));
     _NODE*current = head;
@@ -175,12 +217,14 @@ Obtener_datos_de_archivo * Obtener_datos_de_archivo::getProcessData(const char *
     bool flag = false;
 
     fp=fopen(filename,"r");
-    if(fp == nullptr) {
+    if(fp == NULL) {
         printf("File openning error\n");
         exit(0);
     }
 
     //read each character from file
+    std::cout << getc(fp) << std::endl;
+
     do{
         readData = getc(fp);
         if(readData == ' '&& !flag){
@@ -231,3 +275,8 @@ Obtener_datos_de_archivo * Obtener_datos_de_archivo::getProcessData(const char *
     return reinterpret_cast<Obtener_datos_de_archivo *>(inthead);
 
 }
+/*
+ * Input: int, nodo principal.
+ *
+ * Output: retorna el nuevo nodo integer creado.
+ * */
