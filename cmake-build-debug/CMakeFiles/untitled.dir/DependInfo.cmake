@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/elias/CLionProjects/Gestion_de_memoria/Lista_Simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_pag_int.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Nodo_simple_punteros.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Obtener_datos_de_archivo.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Pag_bloque_mem.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Pag_memoria_virtual.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/Paginacion.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/Paginacion.cpp.o"
-  "/home/elias/CLionProjects/Gestion_de_memoria/main.cpp" "/home/elias/CLionProjects/Gestion_de_memoria/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Lista_Simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Lista_Simple.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Nodo_pag_int.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_pag_int.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Nodo_simple.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Nodo_simple_punteros.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Nodo_simple_punteros.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Obtener_datos_de_archivo.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Obtener_datos_de_archivo.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Pag_bloque_mem.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Pag_bloque_mem.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Pag_memoria_virtual.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Pag_memoria_virtual.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/Paginacion.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/Paginacion.cpp.o"
+  "/home/elias/CLionProjects/Gestion_de_memoria.bak/main.cpp" "/home/elias/CLionProjects/Gestion_de_memoria.bak/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
