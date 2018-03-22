@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/Productos">
         <file>spaghetti.jpg</file>
+        <file>alimentos.jpg</file>
+        <file>carne.jpg</file>
+        <file>Enlatados.jpg</file>
+        <file>legumbres.jpeg</file>
+        <file>Vegetal.jpg</file>
+        <file>Lacteos.jpg</file>
     </qresource>
 </RCC>

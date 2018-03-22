@@ -6,268 +6,78 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>629</width>
-    <height>458</height>
+    <width>646</width>
+    <height>494</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QWidget" name="layoutWidget">
+  <widget class="QPushButton" name="pushButton_3">
    <property name="geometry">
     <rect>
-     <x>60</x>
-     <y>240</y>
-     <width>82</width>
-     <height>151</height>
+     <x>99</x>
+     <y>370</y>
+     <width>121</width>
+     <height>22</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_31">
+   <property name="text">
+    <string>Terminar Compra</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pBCaPr">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>370</y>
+     <width>131</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cambiar Productos</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>258</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
-     <widget class="QLabel" name="label6">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
+     <widget class="QListWidget" name="list1"/>
     </item>
     <item>
-     <widget class="QPushButton" name="pB6_4">
+     <widget class="QPushButton" name="pBAd">
       <property name="text">
-       <string>Check</string>
+       <string>Agregar</string>
       </property>
      </widget>
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="layoutWidget_2">
+  <widget class="QWidget" name="">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>240</y>
-     <width>82</width>
-     <height>151</height>
+     <x>350</x>
+     <y>30</y>
+     <width>258</width>
+     <height>261</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_32">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <widget class="QLabel" name="label8">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
+     <widget class="QListWidget" name="list2"/>
     </item>
     <item>
-     <widget class="QPushButton" name="pB8_4">
+     <widget class="QPushButton" name="pBAd2">
       <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_3">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>240</y>
-     <width>82</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_33">
-    <item>
-     <widget class="QLabel" name="label7">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB7_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_4">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>240</y>
-     <width>82</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_34">
-    <item>
-     <widget class="QLabel" name="label9">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB9_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_5">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>50</y>
-     <width>82</width>
-     <height>181</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_35">
-    <item>
-     <widget class="QLabel" name="label4">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB4_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_6">
-   <property name="geometry">
-    <rect>
-     <x>260</x>
-     <y>50</y>
-     <width>82</width>
-     <height>181</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_36">
-    <item>
-     <widget class="QLabel" name="label3">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB3_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_7">
-   <property name="geometry">
-    <rect>
-     <x>490</x>
-     <y>240</y>
-     <width>82</width>
-     <height>151</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_37">
-    <item>
-     <widget class="QLabel" name="label10">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB10_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_8">
-   <property name="geometry">
-    <rect>
-     <x>489</x>
-     <y>51</y>
-     <width>82</width>
-     <height>181</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_38">
-    <item>
-     <widget class="QLabel" name="label5">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB5_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_9">
-   <property name="geometry">
-    <rect>
-     <x>160</x>
-     <y>51</y>
-     <width>82</width>
-     <height>181</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_39">
-    <item>
-     <widget class="QLabel" name="label2">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB2_4">
-      <property name="text">
-       <string>Check</string>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="layoutWidget_10">
-   <property name="geometry">
-    <rect>
-     <x>61</x>
-     <y>51</y>
-     <width>82</width>
-     <height>181</height>
-    </rect>
-   </property>
-   <layout class="QVBoxLayout" name="verticalLayout_40">
-    <item>
-     <widget class="QLabel" name="label1">
-      <property name="text">
-       <string/>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pB1_4">
-      <property name="text">
-       <string>Check</string>
+       <string>Agregar</string>
       </property>
      </widget>
     </item>

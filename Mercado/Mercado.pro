@@ -15,27 +15,18 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     buy.cpp \
-    carnes.cpp \
-    vegetales.cpp \
-    frutas.cpp \
-    legumbres.cpp \
-    enlatados.cpp
+    campagina.cpp \
+    confirmar.cpp
 
 HEADERS  += mainwindow.h \
     buy.h \
-    carnes.h \
-    vegetales.h \
-    frutas.h \
-    legumbres.h \
-    enlatados.h
+    campagina.h \
+    confirmar.h
 
 FORMS    += mainwindow.ui \
     buy.ui \
-    carnes.ui \
-    vegetales.ui \
-    frutas.ui \
-    legumbres.ui \
-    enlatados.ui
+    campagina.ui \
+    confirmar.ui
 
 RESOURCES += \
     img.qrc

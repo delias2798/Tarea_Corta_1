@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include "buy.h"
 
+
 namespace Ui {
 class MainWindow;
 }
@@ -18,6 +19,10 @@ public:
 
 private slots:
     void on_ContinueButton_clicked();
+
+    void on_checkPastas_clicked();
+
+    void on_ContinueButton_pressed();
 
 private:
     Ui::MainWindow *ui;

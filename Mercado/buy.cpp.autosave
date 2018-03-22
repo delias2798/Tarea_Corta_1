@@ -6,9 +6,9 @@ Buy::Buy(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Buy)
 {
-    QStringList testlist = QStringList()<<"foo"<<"bar"<<"lol";
+   
     ui->setupUi(this);
-    ui->list1->addItems(testlist);
+   
 }
 
 Buy::~Buy()

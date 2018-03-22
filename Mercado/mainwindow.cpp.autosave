@@ -25,17 +25,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->labelLegumbres->setPixmap(legumbres.scaled(100,300,Qt::KeepAspectRatio));
     ui->labelPastas->setPixmap(pasta.scaled(100,300,Qt::KeepAspectRatio));
     ui->labelVegetales->setPixmap(vegetales.scaled(100,300,Qt::KeepAspectRatio));
-    QStringList Lacteos = QStringList()<<"leche"<<"Queso"<<"helado"<<"Yogurt"<<"Natilla"<<"Queso Crema";
-    QStringList Carnes = QStringList()<<"res"<<"pollo"<<"cerdo"<<"conejo";
-    QStringList Enlatados = QStringList()<<"Atun"<<"Tomates"<<"Pepinillos"<<"sardinas";
-    QStringList Legumbres = QStringList()<<"Frijoles"<<"garbanzos"<<"lentejas"<<"judias";
-    QStringList Frutas = QStringList()<<"fresa"<<"pera"<<"piña"<<"cereza";
-    QStringList Vegetales = QStringList()<<"Brocoli"<<"Zanahoria"<<"cebolla";
-    QStringList Pastas = QStringList()<<"Spaghetti"<<"farfalle"<<"caracolitos";
-    QStringList L1 = QStringList();
-    QStringList L2 = QStringList();
-
-
+    
 }
 
 MainWindow::~MainWindow()
@@ -53,9 +43,6 @@ void MainWindow::on_ContinueButton_clicked()
     i=7;
     if(ui->checkLacteos->isChecked()){
         ++i;
-        if(ui->L1->isEmpty()){
-            L1=Carnes;
-        }
     }else{
         --i;
     }
